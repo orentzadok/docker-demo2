@@ -8,7 +8,7 @@ pipeline{
     }
     stage('show image'){
       steps{
-        sh 'show images'
+        sh 'docker images'
       }
     }
     stage('run container'){
